@@ -32,3 +32,30 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+
+//-----------------------------------------------------
+
+// Stack ( Primitive), Heap (Non-Primitive)
+
+let myName = "Musaif Athar"
+
+let anotherName = myName
+
+anotherName = "Aman Thakur"
+
+console.log(myName);
+console.log(anotherName);
+
+let user = {
+    email:"musaifathar@gmail.com",
+    pass : "mussu@07"
+}
+
+let userTow = user
+
+userTow.email = "google@gmail.com"
+
+console.log(user.email);
+console.log(userTow.email);
